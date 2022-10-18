@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'WiGuru';
+    src: url('Styles/fonts/wiguru.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('Styles/fonts/wiguru.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('Styles/fonts/wiguru.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('Styles/fonts/wiguru.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('Styles/fonts/wiguru.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('Styles/fonts/wiguru.svg#wiguru') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    background-color: azure;
+    font-family: 'WiGuru', sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+}
+
